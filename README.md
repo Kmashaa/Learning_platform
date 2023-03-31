@@ -68,9 +68,13 @@ Bad test result page
 1) Authorisation
 2) Registration
 3) Edit profile (personal data)
-4) Learn lesson
-5) Pass test
-6) Add comment to course and rate it
+4) View description of course
+5) View description of lesson
+6) Learn lesson
+7) Pass test
+8) View description of test
+9) Add comment to course and rate it
+10) Read comments
 
 
 # Data models description
