@@ -10,7 +10,7 @@ Unauthorized home page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Unauthorized_home_page.png)
 
 Sign up page
-![](https://github.com/kmashaa/learning_platform/blob/main/lab/sign_up_pae.png)
+![](https://github.com/kmashaa/learning_platform/blob/main/lab/sign_up_page.png)
 
 Sign in page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/sign_in_page.png)
