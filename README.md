@@ -116,7 +116,7 @@ Question:
     question_text
     test_id
     
-Answers:
+Answer:
     answer_id
     answer_text
     question_id
