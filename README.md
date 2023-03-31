@@ -9,58 +9,58 @@ The project will be a learning platform, something like Stepik.
 Unauthorized home page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Unauthorized_home_page.png)
 
-Unauthorized home page
+Sign up page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/sign_up_page.png)
 
-Unauthorized home page
+Sign in page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/sign_in_page.png)
 
-Unauthorized home page
+Profile page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Profile_page.png)
 
-Unauthorized home page
+Settings page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Settings_page.png)
 
-Unauthorized home page
+My courses page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/My_courses_page.png)
 
-Unauthorized home page
+Choosing course by theme authorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Choosing_course_by_theme_authorized_page.png)
 
-Unauthorized home page
+Choosing course by theme unauthorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Choosing_course_by_theme_unauthorized_page.png)
 
-Unauthorized home page
+Information about course unauthorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Information_about_course_unauthorized_page.png)
 
-Unauthorized home page
+Information about course authorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Information_about_course_authorized_page.png)
 
-Unauthorized home page
+Comments authorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Comments_authorized_page.png)
 
-Unauthorized home page
+New comment page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/New_comment_page.png)
 
-Unauthorized home page
+Choosing lessons page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Choosing_lessons_page.png)
 
-Unauthorized home page
+Lesson authorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Lesson_authorized_page.png)
 
-Unauthorized home page
+Information about test page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Information_about_test_page.png)
 
-Unauthorized home page
+Comments unauthorized page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Comments_unauthorized_page.png)
 
-Unauthorized home page
+Test page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Test_page.png)
 
-Unauthorized home page
+Good test result page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Good_test_result_page.png)
 
-Unauthorized home page
+Bad test result page
 ![](https://github.com/kmashaa/learning_platform/blob/main/lab/Bad_test_result_page.png)
 
 
@@ -80,34 +80,41 @@ User:
     username
     avatar
     password
+    
 Comment:
     comment_id
     comment_text
     rating
     user_id
     course_id
+    
 Course:
     course_id
     course_name
     theme_id
     description
+    
 Lesson:
     lesson_id
     lesson_text
     course_id
     lesson_name
+    
 Theme:
     theme_id
     theme_name
+    
 Test:
     test_id
     course_id
     test_name
     test_description
+    
 Question:
     question_id
     question_text
     test_id
+    
 Answers:
     answer_id
     answer_text
