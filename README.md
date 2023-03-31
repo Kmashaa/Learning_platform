@@ -93,6 +93,7 @@ Course:
     course_name
     theme_id
     description
+    rating
     
 Lesson:
     lesson_id
