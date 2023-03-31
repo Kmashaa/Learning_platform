@@ -7,7 +7,7 @@ The project will be a learning platform, something like Stepik.
 
 # Mock up
 Unauthorized home page
-![](https://github.com/kmashaa/learning_platform/blob/main/lab/Unauthorized home page.png)
+![](https://github.com/kmashaa/learning_platform/blob/main/lab/Unauthorized_home_page.png)
 
 
 # Main functions
