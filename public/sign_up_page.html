@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign up</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/sign_up_page.css"/>
+  <link rel="stylesheet" href="css/header.css"/>
+</head>
+<body>
+<header class="header">
+  <nav class="nav">
+    <div class="buttons_home">
+      <ul class="home__items">
+        <li class="home__item">
+          <a class="button_learning_platform" href="home_page.html"> Learning</br>platform </a>
+        </li>
+        <li class="home__item">
+          <a class="button_home_page" href="home_page.html"> Home</a>
+        </li>
+      </ul>
+    </div>
+    <div class="buttons_sign">
+      <a class="button_sign_in" href="sign_in_page.html">Sign in</a>
+      <a class="button_sign_up" href="sign_up_page.html">Sign up</a>
+    </div>
+  </nav>
+</header>
+
+<main class="page-signup__main">
+  <section class="main__auth-data">
+    <header class="auth-data__header">
+      SIGN UP
+    </header>
+    <main class="auth-data__main">
+      <form class="main__form" action="profile_page.html" method="get" id="authForm" name="signup">
+        <label for="photo">Photo</label><br>
+        <input
+          class="form__input-field"
+          id="photo"
+          name="photo"
+          type="file"
+          required/><br>
+        <label for="email">Email</label><br>
+        <input
+          class="form__input-field"
+          id="email"
+          name="email"
+          type="email"
+          required/><br>
+        <label for="name">Name</label><br>
+        <input
+          class="form__input-field"
+          id="name"
+          name="name"
+          required/><br>
+        <label for="password">Password</label><br>
+        <input
+          class="form__input-field"
+          id="pass"
+          name="password"
+          type="password"
+          minlength="8"
+          required/><br>
+        <label for="pass2">Confirm password</label><br>
+        <input
+          class="form__input-field"
+          id="pass2"
+          name="pass2"
+          type="password"
+          minlength="8"
+          required/><br>
+        <button class="form__submit-btn" type="submit">
+          <b class="submit-btn__text">Sign Up</b>
+        </button>
+      </form>
+    </main>
+  </section>
+</main>
+
+</body>
+</html>
