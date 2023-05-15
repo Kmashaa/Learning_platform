@@ -1,13 +1,13 @@
 .button_learning_platform{
   font-weight: bold;
 }
-.button_learning_platform, .button_home_page, .button_sign_in, .button_sign_up{
+.button_learning_platform, .button_home_page, .button_sign_in, .button_sign_up,.button__profile{
   color:black;
   text-decoration: none;
   font-size:20px;
 }
 
-.button_sign_in, .button_sign_up {
+.button_sign_in, .button_sign_up,.button__profile {
   width: 100px;
   height: 60px;
   background: #FA00FF;
@@ -42,6 +42,7 @@
 }
 
 .buttons_home{
+
   width:50%;
   float: left;
   padding: 0px;
@@ -49,15 +50,17 @@
   box-sizing: border-box;
 }
 
-.buttons_sign{
+.buttons_sign,.buttons_profile{
+  /*padding-right: 327px;*/
   display: flex;
   width: 20%;
-  float: right;
-  height: 60px;
-  align-items: flex-end;
+  float: left;
+  height: 70px;
+  box-sizing: border-box;
   justify-content: flex-end;
-  margin-right: 40px;
+  flex-direction: row;
 }
+
 
 
 
@@ -67,11 +70,13 @@
 }
 
 
+
+
 @media screen and (max-width: 1000px) {
   .header{
     height:100px;
   }
-  .button_sign_in,.button_sign_up{
+  .button_sign_in,.button_sign_up,.button__profile{
     height: auto;
 
 

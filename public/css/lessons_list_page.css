@@ -24,7 +24,7 @@ body{
   padding-left: 30px;
 }
 
-.lessons-list__item1, .lessons-list__item2,.lessons-list__item3,.lessons-list__item4, .lessons-list__item5{
+.lessons-list__item, .lessons-list__item2,.lessons-list__item3,.lessons-list__item4, .lessons-list__item5{
   width: 90%;
   height: 85px;
   left: 0px;
@@ -35,7 +35,7 @@ body{
   margin-right:30px;
   margin-top: 17px;
 }
-.lessons-list__item1{
+.lessons-list__item{
   background: #FFB1B1;
 }
 
@@ -74,7 +74,7 @@ body{
 }
 
 .main__lessons{
-  height:550px;
+  height:250px;
   margin-top: 30px;
   overflow: hidden;
   overflow-y: scroll;
@@ -106,9 +106,6 @@ body{
 
 /*Mobile version styles*/
 @media screen and (max-width: 1000px) {
-  .main__courses{
-    height:70%;
-  }
   .buttons{
     margin-bottom: 20px;
   }

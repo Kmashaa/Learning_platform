@@ -91,7 +91,8 @@ body{
 }
 
 .main__questions{
-  height:520px;
+  /*margin-top: 5px;*/
+  height:250px;
   overflow: hidden;
   overflow-y: scroll;
 }
@@ -116,9 +117,7 @@ body{
 }
 /*Mobile version styles*/
 @media screen and (max-width: 1000px) {
-  .main__form{
-    height:70%;
-  }
+
   .buttons__list, .courses-list{
     list-style-type: none;
     padding: 4px;

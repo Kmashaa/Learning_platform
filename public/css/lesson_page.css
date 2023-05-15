@@ -20,11 +20,19 @@ body{
   letter-spacing: 0.1px;
   padding-left: 30px;
 }
+
 .main__lesson{
   margin-top: 30px;
-  height:550px;
+  height:250px;
+  overflow: hidden;
+  overflow-y: scroll;
 
 }
+
+.main__lesson::-webkit-scrollbar{
+  display: none;
+}
+
 .lesson__text{
   font-weight: 500;
   font-size: 30px;
@@ -55,11 +63,5 @@ body{
   margin-left: 50px;
 }
 
-/*Mobile version styles*/
-@media screen and (max-width: 1000px) {
-  .main__lesson-data{
-    height:60%;
-  }
-}
 
 

@@ -130,11 +130,14 @@ body{
 }
 
 .main__courses{
-  height:100%;
-  margin-top: 10px;
+  height:270px;
   overflow: hidden;
   overflow-y: scroll;
 }
+
+/*width: 95%;*/
+/*overflow: hidden;*/
+/*overflow-x: scroll;*/
 .main__courses::-webkit-scrollbar {
   display: none;
 }
@@ -191,7 +194,7 @@ body{
 /*Mobile version styles*/
 @media screen and (max-width: 1000px) {
   .main__courses {
-    height: 1000px;
+    height: 200px;
   }
 
 
@@ -230,13 +233,13 @@ body{
 }
 
 
-/*Mobile version styles*/
-@media screen and (max-width: 1000px) {
-  .main__courses{
-    height:70%;
-  }
-  .buttons{
-    margin-bottom: 20px;
-  }
-}
+/*!*Mobile version styles*!*/
+/*@media screen and (max-width: 1000px) {*/
+/*  .main__courses{*/
+/*    height:70%;*/
+/*  }*/
+/*  .buttons{*/
+/*    margin-bottom: 20px;*/
+/*  }*/
+/*}*/
 

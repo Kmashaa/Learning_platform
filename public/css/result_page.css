@@ -22,8 +22,14 @@ body{
 }
 .result{
   margin-top: 30px;
-  height: 300px;
+  height: 250px;
+  overflow: hidden;
+  overflow-y: scroll;
 
+}
+
+.result::-webkit-scrollbar {
+  display: none;
 }
 .result__text{
   font-weight: 500;
@@ -36,7 +42,7 @@ body{
   color: #000000;
 }
 
-.button__profile{
+.button_profile{
   color:white;
   text-decoration: none;
   flex-wrap: wrap;
@@ -53,14 +59,5 @@ body{
   background: rgba(250, 0, 255, 0.5);
   margin-top: 30px;
   margin-left: 40px;
-}
-
-
-
-@media screen and (max-width: 1000px) {
-  .result{
-    margin-top: 30px;
-    height: 90%;
-  }
 }
 

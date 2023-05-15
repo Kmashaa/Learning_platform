@@ -19,9 +19,17 @@ body{
   padding-left: 30px;
 }
 .main__course{
-  margin-top: 30px;
-  height:100px;
+  /*margin-top: 30px;*/
+  /*height:100px;*/
 
+  height:270px;
+  overflow: hidden;
+  overflow-y: scroll;
+
+}
+
+.main__course::-webkit-scrollbar {
+  display: none;
 }
 .course__text{
   font-weight: 500;
@@ -71,7 +79,7 @@ body{
   /* identical to box height, or 80% */
   display: flex;
   letter-spacing: 0.1px;
-
+  margin-top: 10px;
 }
 
 .buttons__list{
@@ -86,7 +94,7 @@ body{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  height: 500px;
+  /*height: 200px;*/
   align-content: flex-end;
 }
 /*Mobile version styles*/
@@ -103,6 +111,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /*height: 300px;*/
 
 
   }

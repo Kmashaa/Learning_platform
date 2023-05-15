@@ -12,6 +12,7 @@ body{
   font-size:30px;
   padding-left: 30px;
 }
+
 .themes-data__header,.courses-data__header{
   margin-top: 10px;
   font-weight: 700;
@@ -22,19 +23,19 @@ body{
   letter-spacing: 0.1px;
   padding-left: 30px;
 }
+
 .courses-data__header{
   margin-top: 10px;
 }
 
-.themes-list__item1, .themes-list__item2, .themes-list__item3, .themes-list__item4,
-.themes-list__item5, .courses-list__item1, .courses-list__item2, .courses-list__item3,
+.themes-list__item, .themes-list__item2, .themes-list__item3, .themes-list__item4,
+.themes-list__item5, .courses-list__item, .courses-list__item2, .courses-list__item3,
 .courses-list__item4, .courses-list__item5{
 
   width: 250px;
   height: 179px;
   left: 0px;
   top: -1px;
-
 
   border-radius: 30px;
 
@@ -43,9 +44,10 @@ body{
 
   padding-left: 22px;
   padding-top: 25px;
+  margin-top: 5px;
 }
 
-.themes-list__item1{
+.themes-list__item{
   background-color: rgba(255, 230, 0, 0.5);
 }
 
@@ -65,7 +67,7 @@ body{
   background-color: rgba(255, 230, 0, 0.5);
 }
 
-.courses-list__item1{
+.courses-list__item{
   background: rgba(0, 102, 255, 0.5);}
 
 .courses-list__item2{
@@ -87,8 +89,6 @@ body{
   padding: 4px;
   display: inline-flex;
 }
-
-
 
 .main__themes::-webkit-scrollbar, .main__courses::-webkit-scrollbar {
   display: none;
@@ -130,8 +130,8 @@ body{
 
   color: #000000;
   height: 30px;
-
 }
+
 .item__rating{
   margin-top: 20px;
   position: relative;
@@ -157,7 +157,6 @@ body{
   height: 80px;
 }
 
-
 /*Mobile version styles*/
 @media screen and (max-width: 1000px) {
   .themes-list, .courses-list{
@@ -168,16 +167,15 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
   }
+
   .main__themes,.main__courses{
     margin-bottom: 50px;
     width: auto;
     height: 50%;
   }
+
   .themes-data__header, .courses-data__header {
     margin-bottom: 20px;
   }
 }
-
-
