@@ -13,120 +13,38 @@
 <header class="header">
   <nav class="nav">
     <div class="buttons_home">
-    <ul class="home__items">
-      <li class="home__item">
-      <a class="button_learning_platform" href="home_page.html"> Learning</br>platform </a>
-      </li>
-      <li class="home__item">
-      <a class="button_home_page" href="home_page.html"> Home</a>
-      </li>
-    </ul>
+      <ul class="home__items">
+        <li class="home__item">
+          <a class="button_learning_platform" href="home_page.html"> Learning</br>platform </a>
+        </li>
+        <li class="home__item">
+          <a class="button_home_page" href="home_page.html"> Home</a>
+        </li>
+      </ul>
     </div>
-    <div class="buttons_sign">
-      <a class="button_sign_in" href="sign_in_page.html">Sign in</a>
-      <a class="button_sign_up" href="sign_up_page.html">Sign up</a>
-    </div>
+    <div class="buttons_profile" id="buttons_profile"></div>
+    <div class="buttons_sign" id="buttons_sign"></div>
   </nav>
 </header>
 
 <main class="page-home__main">
   <section class="main__themes-data">
-    <header class="themes-data__header">
-      Themes
-    </header>
+    <header class="themes-data__header" id="themes-data__header"></header>
     <main class="themes-data__main">
       <section class="main__themes">
-        <ul class="themes-list">
-          <li class="themes-list__item1">
-            <a class="item__name" href="courses_list_page.html">Math</a>
-            <div class="item__num">10 courses</div>
-          </li>
-          <li class="themes-list__item2">
-            <div>
-            <a class="item__name" href="courses_list_page.html">English</a>
-            <div class="item__num">5 courses</div>
-            </div>
-          </li>
-          <li class="themes-list__item3">
-            <a class="item__name" href="courses_list_page.html">History</a>
-            <div class="item__num">4 courses</div>
-          </li>
-          <li class="themes-list__item4">
-            <a class="item__name" href="courses_list_page.html">Biology</a>
-            <div class="item__num">3 courses</div>
-          </li>
-          <li class="themes-list__item5">
-            <a class="item__name" href="courses_list_page.html">One more</a>
-            <div class="item__num">8 courses</div>
-          </li>
-          <li class="themes-list__item5">
-            <a class="item__name" href="courses_list_page.html">One more</a>
-            <div class="item__num">8 courses</div>
-          </li>
-        </ul>
+        <ul class="themes-list" id="themes-list"></ul>
       </section>
     </main>
-      <header class="courses-data__header">
-        Top rated
-      </header>
+      <header class="courses-data__header" id="courses-data__header"></header>
       <main class="courses-data__main">
       <section class="main__courses">
-        <ul class="courses-list">
-          <li class="courses-list__item1">
-            <div class="item__title">
-            <a class="item__name" href="course_information_page.html">Foundations of math</a>
-            </div>
-            <div class="item__course-description">First step</div>
-            <div class="item__rating">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png" class="item__image">
-              <div class="item__mark">5.0</div>
-            </div>
-          </li>
-          <li class="courses-list__item2">
-            <div class="item__title">
-            <a class="item__name" href="courses_list_page.html">Multiplication table</a>
-            </div>
-            <div class="item__course-description">A new level of learning mathematics</div>
-            <div class="item__rating">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png" class="item__image">
-              <div class="item__mark">5.0</div>
-            </div>
-          </li>
-          <li class="courses-list__item3">
-            <div class="item__title">
-            <a class="item__name" href="courses_list_page.html">Learning biology</a>
-            </div>
-            <div class="item__course-description">Cell - the basis of the structure</div>
-            <div class="item__rating">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png" class="item__image">
-              <div class="item__mark">5.0</div>
-            </div>
-          </li>
-          <li class="courses-list__item4">
-            <div class="item__title">
-            <a class="item__name" href="courses_list_page.html">Basic biology</a>
-            </div>
-            <div class="item__course-description">Phytology</div>
-            <div class="item__rating">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png" class="item__image">
-              <div class="item__mark">5.0</div>
-            </div>
-          </li>
-          <li class="courses-list__item5">
-            <div class="item__title">
-            <a class="item__name" href="courses_list_page.html">One more</a>
-            </div>
-            <div class="item__course-description">Cell - the basis of the structure</div>
-            <div class="item__rating">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Five-pointed_star.svg/1088px-Five-pointed_star.svg.png" class="item__image">
-              <div class="item__mark">5.0</div>
-            </div>
-          </li>
-        </ul>
+        <ul class="courses-list" id="courses-list"></ul>
       </section>
     </main>
-
   </section>
 </main>
+
+<script type="module" src="js/home_page.js"></script>
+<script type="module" src="js/header.js"></script>
 </body>
 </html>
